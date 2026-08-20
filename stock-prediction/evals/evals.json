@@ -1,0 +1,75 @@
+{
+  "skill_name": "stock-prediction",
+  "evals": [
+    {
+      "id": 0,
+      "eval_name": "avgo-backtest-bullish",
+      "prompt": "I want to test something. Pretend it's December 1, 2024. Using ONLY news published before that date, predict Broadcom (AVGO) stock trend over the following 6 months. Show me the signals you'd base the call on.",
+      "expected_output": "Bullish call from pre-cutoff dated timeline (AVGO guided $60-90B AI SAM Dec 12 2024, +24% day, ~$240-260 by May-Jun 2025); tempo tags, probabilities sum 100, invalidation triggers, look-ahead disclosure, disclaimer.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "eval_name": "boeing-backtest-bearish",
+      "prompt": "Using only news from before February 15, 2024, what would you have predicted for Boeing (BA) stock over the next 6-9 months? Walk me through the news analysis.",
+      "expected_output": "Bearish call (BA ~$205 fell to $150-170s over 6-9 months); door-plug + FAA cap in timeline, serial-deterioration framing, tempo tags, probabilities sum 100, invalidation triggers, disclaimer.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "eval_name": "amd-live-prediction",
+      "prompt": "Analyze the recent news around AMD and predict where the stock trend is heading over the next 3-6 months.",
+      "expected_output": "Live structural report: 12+ dated sourced events incl. buyer-side and competitor signals, tempo tags, scenarios sum 100 with bands, conviction <=85%, hype-top check, 3+ invalidation triggers, monitoring list, disclaimer.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "eval_name": "unh-crash-postmortem",
+      "prompt": "Why did UnitedHealth (UNH) stock crash in 2025? Do a post-mortem on the news — what could someone have seen coming?",
+      "expected_output": "Post-mortem mode: dated timeline of the late-2024→2025 decline (DOJ probes, Apr 2025 guidance cut -22% day, May 2025 CEO exit + guidance suspension), tempo tags, 'what was knowable when' ex-ante cluster with lead times, knowable-vs-surprise honesty, generalizable lessons, sources, disclaimer.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "eval_name": "nike-backtest-bearish",
+      "prompt": "Pretend it's June 25, 2024. Using only news published before that date, what's your call on Nike (NKE) stock for the next 6 months? Explain the news signals.",
+      "expected_output": "Bearish/cautious call (Jun 27 2024 earnings cut FY25 guidance, -20% Jun 28 worst day ever, ~$94 → ~$75-77 by Dec 2024); pre-cutoff serial guide-down chain + competitor share loss (On/Hoka) identified via consumer-sector signal translation; tempo tags, probabilities sum 100, invalidation triggers, disclaimer.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "eval_name": "novo-binary-event-backtest",
+      "prompt": "Backtest: as of December 1, 2024, using only news from before that date, predict Novo Nordisk (NVO) over the next 6 months. I'm curious what the news said.",
+      "expected_output": "Calibration test: the CagriSema phase-3 readout (due weeks after cutoff) must be identified as a scheduled binary catalyst with wide scenario spread and capped conviction; competitive pressure (Zepbound outselling, compounding) surfaced as bearish leading signals. Actual: Dec 20 2024 readout missed (20.4% vs ~25%), ADR -18-20%, further decline through 2025.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "eval_name": "delta-thai-live",
+      "prompt": "ช่วยวิเคราะห์ข่าวหุ้น DELTA (SET) แล้วทำนายแนวโน้มราคาช่วง 3-6 เดือนข้างหน้าหน่อย",
+      "expected_output": "Thai-language live report on Delta Electronics Thailand: dated sourced timeline, THB price bands, SET-specific context, tempo tags, scenarios sum 100, conviction <=85%, invalidation triggers, disclaimer — prose in Thai with financial terms in English acceptable.",
+      "files": []
+    },
+    {
+      "id": 7,
+      "eval_name": "wolfspeed-backtest-bearish",
+      "prompt": "Using only news published before August 1, 2024, what would you have predicted for Wolfspeed (WOLF) over the following 6-9 months? Show the signal analysis.",
+      "expected_output": "Strongly bearish call (WOLF ~$20-25 Jul 2024 → ~$13 Oct → ~$6-7 Nov 2024 → mid-2025 Chapter 11); serial guide-downs + EV demand fade + Mohawk Valley ramp issues + balance-sheet/liquidity strain flagged per small-cap rules; tempo tags, probabilities sum 100, invalidation triggers, disclaimer.",
+      "files": []
+    },
+    {
+      "id": 8,
+      "eval_name": "spy-scope-check",
+      "prompt": "Based on the news, will SPY go up over the next 6 months?",
+      "expected_output": "Honest scope handling: states the single-name news taxonomy doesn't apply to index ETFs, does not fabricate company-style signals for SPY, offers clearly-labeled macro discussion with reduced conviction (<=60%) or declines the format, includes disclaimer.",
+      "files": []
+    },
+    {
+      "id": 9,
+      "eval_name": "spotify-backtest-bullish",
+      "prompt": "Pretend today is July 1, 2024. Using only pre-cutoff news, predict Spotify (SPOT) stock over the next 6 months and walk me through the signals.",
+      "expected_output": "Bullish call (SPOT ~$310 Jul 2024 → ~$447 Dec 31 2024, +45%); pricing-power inflection (June 2024 price hikes) + margin turn + subscriber momentum identified as leading signals; magnitude bands sane (tens of percent, not multiples); tempo tags, probabilities sum 100, invalidation triggers, disclaimer.",
+      "files": []
+    }
+  ]
+}

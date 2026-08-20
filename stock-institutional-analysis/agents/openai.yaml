@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stock-InstitutionalAnalysis"
+  short_description: "Institution-grade stock and portfolio analysis"
+  default_prompt: "Use $stock-institutional-analysis for a sourced institutional-grade stock analysis."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stock Earnings Report Prediction"
+  short_description: "Forecast earnings, cash flow, and market interpretation"
+  default_prompt: "Use $stock-earning-report-prediction to forecast the next earnings report with Bear/Base/Bull ranges, an expectations map, and likely investor interpretation; distinguish company guidance, published consensus, and evidence-backed embedded expectations, and when actuals exist audit both the financial forecast and why even apparently good earnings may disappoint investors."

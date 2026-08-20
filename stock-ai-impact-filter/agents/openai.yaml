@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stock AI Impact Filter"
+  short_description: "Filter AI beneficiaries and disruption risks"
+  default_prompt: "Use $stock-ai-impact-filter to classify how AI may help or harm these stocks before the final investment verdict."
